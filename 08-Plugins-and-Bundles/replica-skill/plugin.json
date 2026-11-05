@@ -1,0 +1,14 @@
+{
+  "name": "replica-skill",
+  "displayName": "Replica Skill",
+  "description": "Eleven skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, and fix what its users hate.",
+  "version": "1.0.0",
+  "author": "Jake Schincariol",
+  "homepage": "https://github.com/Jakeschincariol/replica-skill",
+  "repository": "https://github.com/Jakeschincariol/replica-skill",
+  "suggestedPrompts": [
+    "Run replica-recon on an application",
+    "Plan architecture with replica-architect",
+    "Compare clone against original with replica-diff"
+  ]
+}

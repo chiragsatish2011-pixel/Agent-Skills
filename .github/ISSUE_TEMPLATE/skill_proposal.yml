@@ -1,0 +1,47 @@
+name: 💡 Propose a New Skill or Plugin
+description: Suggest a new skill or agent plugin for inclusion in this ecosystem
+title: "[Skill Proposal]: "
+labels: ["enhancement", "skill-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new skill or plugin! Please provide details below.
+  - type: input
+    id: skill_name
+    attributes:
+      label: Skill Name
+      description: The kebab-case name of the skill (e.g. `docker-compose-wizard`)
+      placeholder: my-awesome-skill
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category Domain
+      description: Which category folder should this skill reside in?
+      options:
+        - "01-Productivity-and-Planning"
+        - "02-Memory-and-Knowledge"
+        - "03-Code-Quality-and-Review"
+        - "04-Design-and-Frontend"
+        - "05-Developer-Tools-and-Infra"
+        - "06-Fullstack-and-Replica"
+        - "07-Stitch-and-Creative"
+        - "08-Plugins-and-Bundles"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Skill Purpose & Workflows
+      description: What specific tasks does this teach the AI agent to do?
+    validations:
+      required: true
+  - type: textarea
+    id: triggers
+    attributes:
+      label: Trigger Phrases & Prompts
+      description: What user prompts should activate this skill?
+    validations:
+      required: true

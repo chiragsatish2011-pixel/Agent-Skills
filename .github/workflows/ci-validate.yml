@@ -1,0 +1,92 @@
+name: Validate Skills & Manifests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate SKILL.md Frontmatters & JSON Manifests
+        run: |
+          python -c "
+          import os, sys, json
+          from pathlib import Path
+
+          root = Path('.')
+          errors = []
+
+          # 1. Validate INDEX.json
+          index_path = root / 'INDEX.json'
+          if not index_path.exists():
+              errors.append('INDEX.json is missing')
+          else:
+              try:
+                  data = json.loads(index_path.read_text())
+                  print(f'INDEX.json is valid with {data.get(\"totalSkills\")} skills.')
+              except Exception as e:
+                  errors.append(f'INDEX.json invalid JSON: {e}')
+
+          # 2. Check SKILL.md in categories 01-07
+          categories = [
+              '01-Productivity-and-Planning',
+              '02-Memory-and-Knowledge',
+              '03-Code-Quality-and-Review',
+              '04-Design-and-Frontend',
+              '05-Developer-Tools-and-Infra',
+              '06-Fullstack-and-Replica',
+              '07-Stitch-and-Creative'
+          ]
+
+          skill_count = 0
+          for cat in categories:
+              cat_dir = root / cat
+              if not cat_dir.exists():
+                  continue
+              for sdir in cat_dir.iterdir():
+                  if sdir.is_dir():
+                      skill_count += 1
+                      sm = sdir / 'SKILL.md'
+                      if not sm.exists():
+                          errors.append(f'Missing SKILL.md in {sdir}')
+                          continue
+                      text = sm.read_text(encoding='utf-8', errors='ignore')
+                      if not text.startswith('---'):
+                          errors.append(f'{sdir.name}/SKILL.md missing frontmatter start')
+
+          print(f'Audited {skill_count} skills across categories.')
+
+          # 3. Check 08-Plugins-and-Bundles
+          bundles = root / '08-Plugins-and-Bundles'
+          if bundles.exists():
+              for p in bundles.iterdir():
+                  if p.is_dir():
+                      pj = p / 'plugin.json'
+                      if not pj.exists():
+                          errors.append(f'Missing plugin.json in {p.name}')
+                      else:
+                          try:
+                              json.loads(pj.read_text(encoding='utf-8'))
+                          except Exception as e:
+                              errors.append(f'Invalid plugin.json in {p.name}: {e}')
+
+          if errors:
+              print('\nValidation FAILED with errors:')
+              for err in errors:
+                  print(f' - {err}')
+              sys.exit(1)
+          else:
+              print('\nAll skills and manifests PASSED validation!')
+          "

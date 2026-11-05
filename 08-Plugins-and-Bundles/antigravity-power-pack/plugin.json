@@ -1,0 +1,12 @@
+{
+  "name": "antigravity-power-pack",
+  "displayName": "Antigravity Power Pack (Top Community Skills)",
+  "version": "1.0.0",
+  "description": "Essential productivity, review, memory, and orchestration suite: Ponytail, Get Shit Done (GSD), Wrap Loop, Zoo Code, 5-Agent Code Review, CodeRabbit, Claude Mem, and Obsidian Brain.",
+  "author": "Antigravity Community",
+  "suggestedPrompts": [
+    "Audit this code for minimal lines with Ponytail",
+    "Run 5-Agent code review on our current git diff",
+    "Start autonomous Wrap Loop to achieve our current goal"
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "totalSkills": 105,
+  "categories": [
+    "01-Productivity-and-Planning",
+    "02-Memory-and-Knowledge",
+    "03-Code-Quality-and-Review",
+    "04-Design-and-Frontend",
+    "05-Developer-Tools-and-Infra",
+    "06-Fullstack-and-Replica",
+    "07-Stitch-and-Creative"
+  ],
+  "skills": [
+    {
+      "name": "get-shit-done",
+      "category": "01-Productivity-and-Planning",
+      "description": "High-velocity phased execution engine (GSD). Deconstructs large features and ambitious refactors into strictly isolated phases, executes each atomically, and verifies them before proceeding, avoiding context window bloat and hallucinatory degradation.",
+      "relativePath": "01-Productivity-and-Planning/get-shit-done"
+    },
+    {
+      "name": "ponytail",
+      "category": "01-Productivity-and-Planning",
+      "description": "Efficiency layer and negative-diff gate that evaluates whether new code is actually necessary before writing a single line. Drastically reduces token consumption, bloat, and technical debt by enforcing YAGNI, standard library re-use, refactoring over accretion, and minimal surgical edits.",
+      "relativePath": "01-Productivity-and-Planning/ponytail"
+    },
+    {
+      "name": "wrap-loop",
+      "category": "01-Productivity-and-Planning",
+      "description": "Autonomous goal completion engine and crash-resistant execution loop (Ralph Loop / Wrap Loop pattern). Iteratively executes tasks until deterministic verification succeeds, automatically recovering from crashes, shell interruptions, tool timeouts, and process reboots.",
+      "relativePath": "01-Productivity-and-Planning/wrap-loop"
+    },
+    {
+      "name": "superpowers",
+      "category": "01-Productivity-and-Planning",
+      "description": "Core software development lifecycle skills from Obra Superpowers: brainstorming, writing implementation plans, executing plans, subagent dispatch, test-driven development, systematic debugging, code review, and verification before completion.",
+      "relativePath": "01-Productivity-and-Planning/superpowers"
+    },
+    {
+      "name": "brainstorming",
+      "category": "01-Productivity-and-Planning",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
+      "relativePath": "01-Productivity-and-Planning/brainstorming"
+    },
+    {
+      "name": "writing-plans",
+      "category": "01-Productivity-and-Planning",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "relativePath": "01-Productivity-and-Planning/writing-plans"
+    },
+    {
+      "name": "executing-plans",
+      "category": "01-Productivity-and-Planning",
+      "description": "Use when executing an implementation plan in the current session as the implementer yourself \u2014 your human partner chose inline execution, or no subagent tool is available",
+      "relativePath": "01-Productivity-and-Planning/executing-plans"
+    },
+    {
+      "name": "subagent-driven-development",
+      "category": "01-Productivity-and-Planning",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
+      "relativePath": "01-Productivity-and-Planning/subagent-driven-development"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "category": "01-Productivity-and-Planning",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "relativePath": "01-Productivity-and-Planning/dispatching-parallel-agents"
+    },
+    {
+      "name": "using-superpowers",
+      "category": "01-Productivity-and-Planning",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "relativePath": "01-Productivity-and-Planning/using-superpowers"
+    },
+    {
+      "name": "using-git-worktrees",
+      "category": "01-Productivity-and-Planning",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "relativePath": "01-Productivity-and-Planning/using-git-worktrees"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "category": "01-Productivity-and-Planning",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+      "relativePath": "01-Productivity-and-Planning/finishing-a-development-branch"
+    },
+    {
+      "name": "diagnosing-superpowers",
+      "category": "01-Productivity-and-Planning",
+      "description": "Use when a superpowers session went wrong and your human partner wants to know why \u2014 repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" \u2014 or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.",
+      "relativePath": "01-Productivity-and-Planning/diagnosing-superpowers"
+    },
+    {
+      "name": "automation",
+      "category": "01-Productivity-and-Planning",
+      "description": "Interactive guide to design and create a scheduled background automation. Use this skill when the user wants to create an automated or recurring scheduled task (e.g. \"summarize my emails every morning\", \"every Monday send me a to-do list\"). Also triggered by the /automation slash command.",
+      "relativePath": "01-Productivity-and-Planning/automation"
+    },
+    {
+      "name": "claude-mem",
+      "category": "02-Memory-and-Knowledge",
+      "description": "Persistent cross-session memory engine that automatically captures, checkpoints, and recalls architectural decisions, user preferences, project conventions, and ongoing task progress across distinct coding sessions.",
+      "relativePath": "02-Memory-and-Knowledge/claude-mem"
+    },
+    {
+      "name": "obsidian-brain",
+      "category": "02-Memory-and-Knowledge",
+      "description": "Connects your local notes, project history, architecture decisions, and code patterns into a structured second brain / Obsidian vault. Utilizes bidirectional wikilinks, Maps of Content (MOC), frontmatter metadata, and knowledge graph conventions to adapt AI to your custom workflow.",
+      "relativePath": "02-Memory-and-Knowledge/obsidian-brain"
+    },
+    {
+      "name": "agy-customizations",
+      "category": "02-Memory-and-Knowledge",
+      "description": ">-",
+      "relativePath": "02-Memory-and-Knowledge/agy-customizations"
+    },
+    {
+      "name": "antigravity_guide",
+      "category": "02-Memory-and-Knowledge",
+      "description": "Provides a comprehensive guide, quick reference, and sitemap for Google Antigravity (AGY), including the Antigravity CLI (agy), Antigravity 2.0, Antigravity IDE, Python SDK, slash commands, keybindings, and customizations (skills, rules, MCP, sidecars). Activate this skill when the user asks questions about how to use, configure, or customize Antigravity, AGY, the agy CLI, the Antigravity IDE, or Antigravity 2.0.",
+      "relativePath": "02-Memory-and-Knowledge/antigravity_guide"
+    },
+    {
+      "name": "migrate-workflows",
+      "category": "02-Memory-and-Knowledge",
+      "description": "Automatically migrate legacy workflows to modern skills across global and workspace configurations. Scans for existing workflows, creates target SKILL.md files, and safely archives old workflow files.",
+      "relativePath": "02-Memory-and-Knowledge/migrate-workflows"
+    },
+    {
+      "name": "code-review-agents",
+      "category": "03-Code-Quality-and-Review",
+      "description": "Simulates or deploys five specialized AI review agents on Pull Requests and diffs: Bug Hunter, Security Auditor, Git History & Context Reviewer, Comment & Doc Verifier, and Confidence Synthesizer. Only findings with high confidence (\u226585%) pass through, eliminating nitpicks and false positives.",
+      "relativePath": "03-Code-Quality-and-Review/code-review-agents"
+    },
+    {
+      "name": "coderabbit",
+      "category": "03-Code-Quality-and-Review",
+      "description": "Real-time pre-commit code reviewer and security gate inspired by CodeRabbit. Audits staged git diffs and unstaged working directories for logic flaws, security vulnerabilities, N+1 performance bottlenecks, and style drift before you commit code.",
+      "relativePath": "03-Code-Quality-and-Review/coderabbit"
+    },
+    {
+      "name": "test-driven-development",
+      "category": "03-Code-Quality-and-Review",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "relativePath": "03-Code-Quality-and-Review/test-driven-development"
+    },
+    {
+      "name": "systematic-debugging",
+      "category": "03-Code-Quality-and-Review",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "relativePath": "03-Code-Quality-and-Review/systematic-debugging"
+    },
+    {
+      "name": "verification-before-completion",
+      "category": "03-Code-Quality-and-Review",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "relativePath": "03-Code-Quality-and-Review/verification-before-completion"
+    },
+    {
+      "name": "requesting-code-review",
+      "category": "03-Code-Quality-and-Review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "relativePath": "03-Code-Quality-and-Review/requesting-code-review"
+    },
+    {
+      "name": "receiving-code-review",
+      "category": "03-Code-Quality-and-Review",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "relativePath": "03-Code-Quality-and-Review/receiving-code-review"
+    },
+    {
+      "name": "permissioned-github",
+      "category": "03-Code-Quality-and-Review",
+      "description": "Guidelines for interacting with GitHub and request permissions from the user when commands fail due to restrictions in the agent environment.",
+      "relativePath": "03-Code-Quality-and-Review/permissioned-github"
+    },
+    {
+      "name": "design-taste-frontend",
+      "category": "04-Design-and-Frontend",
+      "description": ">-",
+      "relativePath": "04-Design-and-Frontend/design-taste-frontend"
+    },
+    {
+      "name": "taste-design",
+      "category": "04-Design-and-Frontend",
+      "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards \u2014 strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+      "relativePath": "04-Design-and-Frontend/taste-design"
+    },
+    {
+      "name": "emil-design-eng",
+      "category": "04-Design-and-Frontend",
+      "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+      "relativePath": "04-Design-and-Frontend/emil-design-eng"
+    },
+    {
+      "name": "impeccable",
+      "category": "04-Design-and-Frontend",
+      "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX review, hierarchy, layout, typography, color, motion, UX copy, accessibility, responsive behavior, edge cases, and capturing or documenting design systems (DESIGN.md, tokens). Also for making bland UI bolder, loud UI quieter, or ambitious visual effects. Not for backend-only or non-UI tasks.",
+      "relativePath": "04-Design-and-Frontend/impeccable"
+    },
+    {
+      "name": "animate",
+      "category": "04-Design-and-Frontend",
+      "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right \u2014 should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations; for auditing a whole codebase use improve-animations.",
+      "relativePath": "04-Design-and-Frontend/animate"
+    },
+    {
+      "name": "animate-expo",
+      "category": "04-Design-and-Frontend",
+      "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right \u2014 should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handler, Expo Router and expo-haptics. Use when animating anything in an Expo app, adding gestures, sheets, screen transitions, press feedback or haptics, or fixing motion that stutters on device. For web animation use `animate`.",
+      "relativePath": "04-Design-and-Frontend/animate-expo"
+    },
+    {
+      "name": "animation-performance",
+      "category": "04-Design-and-Frontend",
+      "description": "Keep web animations inside the frame budget \u2014 animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Covers the layout/paint/composite pipeline, cheaper property swaps, CSS vs WAAPI vs requestAnimationFrame, Motion's hardware-accelerated path, React re-rendering per frame, inherited CSS variable recalculation, blur cost, and when `will-change` actually helps. Use when an animation is janky, choppy, stutters, or drops frames; when choosing which property to animate; when deciding between CSS and JS animation on performance grounds; or when reaching for `will-change` or GPU layers. For choosing easing, duration, or whether to animate at all use animate; for reviewing motion as a whole use review-animations.",
+      "relativePath": "04-Design-and-Frontend/animation-performance"
+    },
+    {
+      "name": "animation-vocabulary",
+      "category": "04-Design-and-Frontend",
+      "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" \u2192 Pop in; \"the iOS rubber-band scroll\" \u2192 Rubber-banding). Use when the user asks \"what's it called when\u2026\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one.",
+      "relativePath": "04-Design-and-Frontend/animation-vocabulary"
+    },
+    {
+      "name": "choreograph",
+      "category": "04-Design-and-Frontend",
+      "description": "Coordinate several elements that animate together \u2014 decide what moves, in what order, how much they overlap, and what stays still \u2014 so a group reads as one intentional motion instead of a pile of separate animations. Use when building or fixing a staggered list, a hero entrance, a view swap inside a container, a multi-step flow, an element leaving while its siblings close the gap, a morph between rich states, or any interaction with several moving parts (icon + background + lines, panel + content, items flying into a target). Triggers on \u2014 stagger, staggerChildren, delayChildren, animation-delay, sequence, sequencing, orchestration, choreography, cascade, wave, timeline, \"one after another\", \"at the same time\", crossfade, popLayout, mode=\"wait\", AnimatePresence mode, hero entrance, list entrance, multi-step, step transition, morph, useAnimate, Promise.all animations, \"feels mechanical\", \"feels robotic\", \"too much going on\", \"feels slow to open\".",
+      "relativePath": "04-Design-and-Frontend/choreograph"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "category": "04-Design-and-Frontend",
+      "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead.",
+      "relativePath": "04-Design-and-Frontend/find-animation-opportunities"
+    },
+    {
+      "name": "review-animations",
+      "category": "04-Design-and-Frontend",
+      "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+      "relativePath": "04-Design-and-Frontend/review-animations"
+    },
+    {
+      "name": "remove-animations",
+      "category": "04-Design-and-Frontend",
+      "description": "Find the animations an interface doesn't need and remove them \u2014 motion on keyboard actions, high-frequency surfaces, functional data, and decoration with no purpose \u2014 then clean up what they leave behind. Edits code, but only to subtract; it never adds or retunes motion. Use when the user says the app \"feels slow\", \"has too much animation\", \"feels over-animated\", wants to \"tone down the motion\", or asks what animations to remove. For finding places that should animate, use find-animation-opportunities; for fixing animations that should stay, use improve-animations or review-animations.",
+      "relativePath": "04-Design-and-Frontend/remove-animations"
+    },
+    {
+      "name": "ui-craft",
+      "category": "04-Design-and-Frontend",
+      "description": "Use when building, redesigning, critiquing or polishing any frontend UI (pages, dashboards, components, forms, motion). Enforces a DESIGN.md token contract, type/color/elevation systems, spring-based micro-interactions, anti-slop bans, and a screenshot audit in a real browser before finishing. Not for backend-only work.",
+      "relativePath": "04-Design-and-Frontend/ui-craft"
+    },
+    {
+      "name": "ui-styling",
+      "category": "04-Design-and-Frontend",
+      "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and posters, or establishing consistent styling patterns across applications.",
+      "relativePath": "04-Design-and-Frontend/ui-styling"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "category": "04-Design-and-Frontend",
+      "description": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 79 searchable styles (50 active), 192 product palettes and reasoning profiles, 74 font pairings, 119 UX guidelines, 105 icons, 17 GSAP presets, 25 chart types, and 22 stacks.",
+      "relativePath": "04-Design-and-Frontend/ui-ux-pro-max"
+    },
+    {
+      "name": "shadcn-ui",
+      "category": "04-Design-and-Frontend",
+      "description": "Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices.",
+      "relativePath": "04-Design-and-Frontend/shadcn-ui"
+    },
+    {
+      "name": "apple-design",
+      "category": "04-Design-and-Frontend",
+      "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
+      "relativePath": "04-Design-and-Frontend/apple-design"
+    },
+    {
+      "name": "frontend-design",
+      "category": "04-Design-and-Frontend",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "relativePath": "04-Design-and-Frontend/frontend-design"
+    },
+    {
+      "name": "brand",
+      "category": "04-Design-and-Frontend",
+      "description": "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
+      "relativePath": "04-Design-and-Frontend/brand"
+    },
+    {
+      "name": "break-ui",
+      "category": "04-Design-and-Frontend",
+      "description": "Try to break a piece of UI by feeding it worst-case data \u2014 long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme numbers \u2014 then render it behind a \"Demo data / Worst case\" toggle and report everything that broke, with the fix for each. Use when the user asks to stress-test, break, or find edge cases in a component or screen, or to \"try the worst case\". For visual design critique use emil-design-eng; for motion use review-animations.",
+      "relativePath": "04-Design-and-Frontend/break-ui"
+    },
+    {
+      "name": "mobile-native",
+      "category": "04-Design-and-Frontend",
+      "description": "Make a web app feel native on a phone \u2014 the small CSS and meta-tag fixes that separate \"a website in a browser\" from something that feels installed. Covers sticky hover states, tap highlight flashes, the 100vh bug, inputs that zoom the page, laggy taps, pull-to-refresh hijacking scroll, content under the notch, long-press selecting button text, carousels that scroll the wrong way, mismatched status bars, and the rule that you test on real hardware. Use when a web app is being built for or reviewed on mobile, when something \"works in Chrome but feels wrong on my phone\", when building a PWA, a bottom sheet, a carousel, a full-screen layout, or any touch interaction. For motion itself use animate; for React Native use animate-expo.",
+      "relativePath": "04-Design-and-Frontend/mobile-native"
+    },
+    {
+      "name": "pick-ui-library",
+      "category": "04-Design-and-Frontend",
+      "description": "Pick the right library for a given frontend task from a curated, opinionated list \u2014 numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.",
+      "relativePath": "04-Design-and-Frontend/pick-ui-library"
+    },
+    {
+      "name": "prototype",
+      "category": "04-Design-and-Frontend",
+      "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.",
+      "relativePath": "04-Design-and-Frontend/prototype"
+    },
+    {
+      "name": "generative_ui",
+      "category": "04-Design-and-Frontend",
+      "description": "How to render rich interactive HTML widgets inline in the chat or as standalone artifacts. Use this skill when you want to show the user diagrams, data visualizations, interactive controls, educational walkthroughs, or any rich visual content beyond plain text and markdown.",
+      "relativePath": "04-Design-and-Frontend/generative_ui"
+    },
+    {
+      "name": "ui-plugin-navigation",
+      "category": "04-Design-and-Frontend",
+      "description": "Discover UI plugin panels relevant to the current task and surface a one-click pill in chat to open (toggle) them in the side pane. Use when a running UI plugin's panel would help with what the user is doing, or right after the user enables a new UI plugin pane and a shortcut to open it is handy.",
+      "relativePath": "04-Design-and-Frontend/ui-plugin-navigation"
+    },
+    {
+      "name": "zoo-code",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Multi-model orchestration and intelligent quota failover system. Dynamically routes tasks to optimal model tiers (Fast, Reasoning, Heavy Context, Local) and automatically fails over to alternative providers when rate limits, token exhaustion, or provider outages occur.",
+      "relativePath": "05-Developer-Tools-and-Infra/zoo-code"
+    },
+    {
+      "name": "google-antigravity-sdk",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Design, implement, and debug autonomous AI agents and multi-agent systems using the Google Antigravity (AGY) SDK. ACTIVATE this skill when the user wants to create, configure, or orchestrate Google Antigravity agents.",
+      "relativePath": "05-Developer-Tools-and-Infra/google-antigravity-sdk"
+    },
+    {
+      "name": "chrome-devtools",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pages, automating browser interactions, analyzing performance, or inspecting network requests. This skill does not apply to `--slim` mode (MCP configuration).",
+      "relativePath": "05-Developer-Tools-and-Infra/chrome-devtools"
+    },
+    {
+      "name": "a11y-debugging",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing semantic HTML, ARIA labels, focus states, keyboard navigation, tap targets, and color contrast.",
+      "relativePath": "05-Developer-Tools-and-Infra/a11y-debugging"
+    },
+    {
+      "name": "cookie-debugging",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Uses Chrome DevTools MCP for inspecting, debugging, and testing cookies, session state, authentication issues, and cookie consent compliance. Use when diagnosing 401/403 errors, authentication redirects, session expiration, Cookie/Set-Cookie header issues, cookie banner consent conformance, or third-party cookie/SameSite/Partitioned cookie warnings.",
+      "relativePath": "05-Developer-Tools-and-Infra/cookie-debugging"
+    },
+    {
+      "name": "debug-optimize-lcp",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever the user asks about LCP performance, slow page loads, Core Web Vitals optimization, or wants to understand why their page's main content takes too long to appear. Also use when the user mentions \"largest contentful paint\", \"page load speed\", \"CWV\", or wants to improve how fast their hero image or main content renders.",
+      "relativePath": "05-Developer-Tools-and-Infra/debug-optimize-lcp"
+    },
+    {
+      "name": "memory-leak-debugging",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM errors, or wants to capture, compare, or inspect heap snapshots with Chrome DevTools MCP memory tools.",
+      "relativePath": "05-Developer-Tools-and-Infra/memory-leak-debugging"
+    },
+    {
+      "name": "troubleshooting",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_pages, new_page, or navigate_page fail, or when the server initialization fails.",
+      "relativePath": "05-Developer-Tools-and-Infra/troubleshooting"
+    },
+    {
+      "name": "android-cli",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "android-cli skill",
+      "relativePath": "05-Developer-Tools-and-Infra/android-cli"
+    },
+    {
+      "name": "compose-preview",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Instructions for the Android Compose Preview sidecar, which renders Jetpack Compose @Preview functions with `android preview render` and shows them in the Android Compose Preview pane. Use it when the user wants to see a Compose preview, or to review the result of UI changes \u2014 re-render after changing the code so that the pane shows the result.",
+      "relativePath": "05-Developer-Tools-and-Infra/compose-preview"
+    },
+    {
+      "name": "device-hub",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Instructions for working with the Android Device Hub sidecar, which lists, starts, stops, creates and removes Android Virtual Devices (AVDs), lists physical devices connected to adb, and lets the user mirror and control any of them (video, touch, keyboard, mouse wheel) in the Device Hub pane. Also explains how to inspect and interact with the screen the user is mirroring, with `android layout`, `android screen` and `adb`.",
+      "relativePath": "05-Developer-Tools-and-Infra/device-hub"
+    },
+    {
+      "name": "chrome-extensions",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": ">",
+      "relativePath": "05-Developer-Tools-and-Infra/chrome-extensions"
+    },
+    {
+      "name": "modern-web-guidance",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "|",
+      "relativePath": "05-Developer-Tools-and-Infra/modern-web-guidance"
+    },
+    {
+      "name": "hf-cli",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging Face infrastructure; managing Hugging Face repos; discussions and pull requests; browsing models, datasets and spaces; reading, searching, or browsing academic papers; managing collections; querying datasets; configuring spaces; setting up webhooks; or deploying and managing HF Inference Endpoints. Make sure to use this skill whenever the user mentions 'hf', 'huggingface', 'Hugging Face', 'huggingface-cli', or 'hugging face cli', or wants to do anything related to the Hugging Face ecosystem and to AI and ML in general. Also use for cloud storage needs like training checkpoints, data pipelines, or agent traces. Use even if the user doesn't explicitly ask for a CLI command. Replaces the deprecated `huggingface-cli`.",
+      "relativePath": "05-Developer-Tools-and-Infra/hf-cli"
+    },
+    {
+      "name": "tabbit",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Use for browser navigation, inspection, interaction, and visual verification through Tabbit's installed CLI.",
+      "relativePath": "05-Developer-Tools-and-Infra/tabbit"
+    },
+    {
+      "name": "write-swift",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "How to write modern Swift well \u2014 modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.",
+      "relativePath": "05-Developer-Tools-and-Infra/write-swift"
+    },
+    {
+      "name": "writing-skills",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "relativePath": "05-Developer-Tools-and-Infra/writing-skills"
+    },
+    {
+      "name": "plugin",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "How to manage and create plugins \u2014 namespaced bundles of skills, agents, rules, MCP servers and hooks that install, enable and disable as a single unit. Use this skill when the user wants to enable, disable, install or uninstall a plugin, when they want to create a new plugin, or when a new customization should be packaged into a plugin rather than left loose. Also triggered by the /plugin slash command. Don't use for the underlying customization system itself \u2014 discovery roots, loading priority, or authoring a standalone skill, agent, rule, hook or MCP server outside a plugin; see the customizations guide skill for those.",
+      "relativePath": "05-Developer-Tools-and-Infra/plugin"
+    },
+    {
+      "name": "run-workflow",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": ">-",
+      "relativePath": "05-Developer-Tools-and-Infra/run-workflow"
+    },
+    {
+      "name": "replica-recon",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-recon"
+    },
+    {
+      "name": "replica-architect",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-architect"
+    },
+    {
+      "name": "replica-design",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-design"
+    },
+    {
+      "name": "replica-build",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-build"
+    },
+    {
+      "name": "replica-backend",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-backend"
+    },
+    {
+      "name": "replica-test",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-test"
+    },
+    {
+      "name": "replica-diff",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-diff"
+    },
+    {
+      "name": "replica-entrepreneur",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-entrepreneur"
+    },
+    {
+      "name": "replica-brand",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-brand"
+    },
+    {
+      "name": "replica-launch",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-launch"
+    },
+    {
+      "name": "replica-deploy",
+      "category": "06-Fullstack-and-Replica",
+      "description": ">-",
+      "relativePath": "06-Fullstack-and-Replica/replica-deploy"
+    },
+    {
+      "name": "stitch-code-to-design",
+      "category": "07-Stitch-and-Creative",
+      "description": ">-",
+      "relativePath": "07-Stitch-and-Creative/stitch-code-to-design"
+    },
+    {
+      "name": "stitch-extract-design-md",
+      "category": "07-Stitch-and-Creative",
+      "description": ">-",
+      "relativePath": "07-Stitch-and-Creative/stitch-extract-design-md"
+    },
+    {
+      "name": "stitch-extract-static-html",
+      "category": "07-Stitch-and-Creative",
+      "description": ">-",
+      "relativePath": "07-Stitch-and-Creative/stitch-extract-static-html"
+    },
+    {
+      "name": "stitch-generate-design",
+      "category": "07-Stitch-and-Creative",
+      "description": ">-",
+      "relativePath": "07-Stitch-and-Creative/stitch-generate-design"
+    },
+    {
+      "name": "stitch-loop",
+      "category": "07-Stitch-and-Creative",
+      "description": "Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern",
+      "relativePath": "07-Stitch-and-Creative/stitch-loop"
+    },
+    {
+      "name": "stitch-manage-design-system",
+      "category": "07-Stitch-and-Creative",
+      "description": ">-",
+      "relativePath": "07-Stitch-and-Creative/stitch-manage-design-system"
+    },
+    {
+      "name": "stitch-react-components",
+      "category": "07-Stitch-and-Creative",
+      "description": ">-",
+      "relativePath": "07-Stitch-and-Creative/stitch-react-components"
+    },
+    {
+      "name": "stitch-react-native",
+      "category": "07-Stitch-and-Creative",
+      "description": ">-",
+      "relativePath": "07-Stitch-and-Creative/stitch-react-native"
+    },
+    {
+      "name": "stitch-upload-to-stitch",
+      "category": "07-Stitch-and-Creative",
+      "description": ">-",
+      "relativePath": "07-Stitch-and-Creative/stitch-upload-to-stitch"
+    },
+    {
+      "name": "awesome-design-md",
+      "category": "07-Stitch-and-Creative",
+      "description": "Curated library of 70+ production-grade DESIGN.md design system specifications reverse-engineered from world-class products (Linear, Vercel, Apple, Stripe, Supabase, Notion, Figma, x.ai, Raycast, Resend, etc.). Use when bootstrapping a new design system, seeking high-aesthetic design tokens, or matching an industry-leading visual language for a project.",
+      "relativePath": "07-Stitch-and-Creative/awesome-design-md"
+    },
+    {
+      "name": "banner-design",
+      "category": "07-Stitch-and-Creative",
+      "description": "Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with optional generated or supplied visuals. Actions: design, create, generate banner. Platforms: Facebook, Twitter/X, LinkedIn, YouTube, Instagram, Google Display, website hero, print. Styles: minimalist, gradient, bold typography, photo-based, illustrated, geometric, retro, glassmorphism, 3D, neon, duotone, editorial, collage.",
+      "relativePath": "07-Stitch-and-Creative/banner-design"
+    },
+    {
+      "name": "design",
+      "category": "07-Stitch-and-Creative",
+      "description": "Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini, Atlas Cloud, or MuAPI AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart.js), banner design (22 styles, social/ads/web/print), icon design (15 styles, SVG, Gemini 3.1 Pro), social photos (HTML\u2192screenshot, multi-platform). Actions: design logo, create CIP, generate mockups, build slides, design banner, generate icon, create social photos, social media images, brand identity, design system. Platforms: Facebook, Twitter, LinkedIn, YouTube, Instagram, Pinterest, TikTok, Threads, Google Ads.",
+      "relativePath": "07-Stitch-and-Creative/design"
+    },
+    {
+      "name": "design-md",
+      "category": "07-Stitch-and-Creative",
+      "description": "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files",
+      "relativePath": "07-Stitch-and-Creative/design-md"
+    },
+    {
+      "name": "design-md-creator",
+      "category": "07-Stitch-and-Creative",
+      "description": "Create or refine a DESIGN.md from a public website URL, then use that design system to build and open a standalone HTML page based on either a reference URL or the user's requested page and content. Visually validate the HTML and feed reusable corrections back into DESIGN.md. Use when the user wants a DESIGN.md, an HTML preview or replica, a new page in an extracted visual style, or an awesome-design-md style folder whose preview can expose and correct missing design details.",
+      "relativePath": "07-Stitch-and-Creative/design-md-creator"
+    },
+    {
+      "name": "design-system",
+      "category": "07-Stitch-and-Creative",
+      "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive\u2192semantic\u2192component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
+      "relativePath": "07-Stitch-and-Creative/design-system"
+    },
+    {
+      "name": "enhance-prompt",
+      "category": "07-Stitch-and-Creative",
+      "description": "Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.",
+      "relativePath": "07-Stitch-and-Creative/enhance-prompt"
+    },
+    {
+      "name": "hallmark",
+      "category": "07-Stitch-and-Creative",
+      "description": "Design skill for websites and new pages that look designed, not generated. Use when the user asks to build or design something new, or names Hallmark. Never use it on an existing design unless the user names Hallmark, as in `/hallmark redesign <path>`.",
+      "relativePath": "07-Stitch-and-Creative/hallmark"
+    },
+    {
+      "name": "react-vite-dashboard",
+      "category": "07-Stitch-and-Creative",
+      "description": "Convert Stitch designs into production React + Vite dashboards with TanStack Query, accessible tokens from DESIGN.md, and Web3-ready patterns (ethers/viem).",
+      "relativePath": "07-Stitch-and-Creative/react-vite-dashboard"
+    },
+    {
+      "name": "remotion",
+      "category": "07-Stitch-and-Creative",
+      "description": "Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays",
+      "relativePath": "07-Stitch-and-Creative/remotion"
+    },
+    {
+      "name": "site-md",
+      "category": "07-Stitch-and-Creative",
+      "description": "Analyze a project description or site requirements and synthesize a project constitution into SITE.md for the Stitch Build Loop",
+      "relativePath": "07-Stitch-and-Creative/site-md"
+    },
+    {
+      "name": "slides",
+      "category": "07-Stitch-and-Creative",
+      "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.",
+      "relativePath": "07-Stitch-and-Creative/slides"
+    },
+    {
+      "name": "ask-sonner",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "ask-sonner skill",
+      "relativePath": "05-Developer-Tools-and-Infra/ask-sonner"
+    },
+    {
+      "name": "improve-animations",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "improve-animations skill",
+      "relativePath": "05-Developer-Tools-and-Infra/improve-animations"
+    }
+  ]
+}
