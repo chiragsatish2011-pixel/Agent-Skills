@@ -1,5 +1,5 @@
 {
-  "totalSkills": 105,
+  "totalSkills": 110,
   "categories": [
     "01-Productivity-and-Planning",
     "02-Memory-and-Knowledge",
@@ -639,6 +639,36 @@
       "category": "05-Developer-Tools-and-Infra",
       "description": "improve-animations skill",
       "relativePath": "05-Developer-Tools-and-Infra/improve-animations"
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "category": "06-Fullstack-and-Replica",
+      "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA.",
+      "relativePath": "06-Fullstack-and-Replica/reverse-engineer-anything"
+    },
+    {
+      "name": "rea-tool-design",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Audit, investigate, design, or change REA investigation tools, CLI/MCP contracts, and Evidence semantics.",
+      "relativePath": "05-Developer-Tools-and-Infra/rea-tool-design"
+    },
+    {
+      "name": "rea-analysis-optimization",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Optimize REA providers and analysis workflows for context, latency, CPU, and memory.",
+      "relativePath": "05-Developer-Tools-and-Infra/rea-analysis-optimization"
+    },
+    {
+      "name": "rea-ci-tests-audit",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Audit REA CI and test suites for correctness, fixture drift, and measured performance.",
+      "relativePath": "05-Developer-Tools-and-Infra/rea-ci-tests-audit"
+    },
+    {
+      "name": "rea-changelog-update",
+      "category": "05-Developer-Tools-and-Infra",
+      "description": "Prepare release changelogs from pinned Git history with verified contributor attribution.",
+      "relativePath": "05-Developer-Tools-and-Infra/rea-changelog-update"
     }
   ]
 }

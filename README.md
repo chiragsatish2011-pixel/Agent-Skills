@@ -1,9 +1,10 @@
 # ⚡ Ultimate Antigravity & AI Agent Skills Repository
-### *The Definitive Portable Ecosystem of 105+ Production-Grade Skills, Plugins, and Agents*
+### *The Definitive Portable Ecosystem of 110+ Production-Grade Skills, Plugins, and Agents*
 
 [![Antigravity](https://img.shields.io/badge/Antigravity-2.0-blue.svg)](https://deepmind.google/technologies/gemini/)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-purple.svg)](https://anthropic.com)
-[![Skills](https://img.shields.io/badge/Skills-105%2B%20Total-success.svg)](./INDEX.json)
+[![REA Compatible](https://img.shields.io/badge/REA-Reverse%20Engineer%20Anything-orange.svg)](https://rea.tools/)
+[![Skills](https://img.shields.io/badge/Skills-110%20Total-success.svg)](./INDEX.json)
 [![Status](https://img.shields.io/badge/Status-Installed%20%26%20Portable-brightgreen.svg)](#)
 
 ---
@@ -12,7 +13,7 @@
 
 > 💡 **Select your perspective:**
 >
-> 👤 **[Jump to the Human Developer Guide](#-human-developer-guide)** — Architecture, video inspirations, categorized catalog, installation commands, and productivity mental models.
+> 👤 **[Jump to the Human Developer Guide](#-human-developer-guide)** — Architecture, video inspirations, REA reverse engineering suite, categorized catalog, installation commands, and productivity mental models.
 >
 > 🤖 **[Jump to the AI Agent Directives](#-ai-agent-directives--system-prompt)** — Context-injection protocols, routing matrix, progressive disclosure rules, tool execution patterns, and guardrails.
 
@@ -24,11 +25,11 @@
 
 ## 🎯 1. Overview & Origins
 
-This repository unifies the world's most effective AI coding skills, motion engineering systems, and autonomous agent loops into a single **portable, plug-and-play directory structure**. It transforms standard AI coding assistants (Google Antigravity, Claude Code, Cursor, Windsurf) from generic chat bots into disciplined, high-velocity software engineering partners.
+This repository unifies the world's most effective AI coding skills, motion engineering systems, autonomous agent loops, and **reverse-engineering engines** into a single **portable, plug-and-play directory structure**. It transforms standard AI coding assistants (Google Antigravity, Claude Code, Cursor, Windsurf) from generic chat bots into disciplined, high-velocity software engineering partners.
 
-### 📺 Video Inception & Curated Lineup
+### 📺 Video Inception & Ecosystem Lineup
 
-The core pillars of this collection are directly synthesized and engineered from top agent engineering breakdowns:
+The core pillars of this collection are directly synthesized from industry-leading agent engineering breakdowns:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -59,7 +60,16 @@ The core pillars of this collection are directly synthesized and engineered from
 │ 4. CodeRabbit                  │ Real-time pre-commit code review & security gates.    │
 └────────────────────────────────┴───────────────────────────────────────────────────────┘
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🎬 Source 4: "Package your skills and tools into an Agent Plugin"                     │
+│ 🔍 Source 4: REA (Reverse Engineer Anything) by @morluto (rea.tools)                   │
+├────────────────────────────────┬───────────────────────────────────────────────────────┤
+│ 1. Reverse Engineer Anything   │ MCP server & decompiler bridges (Hopper, Ghidra,      │
+│                                │ JADX, Frida, ILSpy) for native binaries, Android APKs,│
+│                                │ Electron/JS bundles, and .NET assemblies.             │
+│ 2. REA Analysis Optimization   │ Optimizes reverse-engineering pipelines for latency.  │
+│ 3. REA Tool Design             │ Designs custom binary analysis tools and contracts.   │
+└────────────────────────────────┴───────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ 🎬 Source 5: "Package your skills and tools into an Agent Plugin"                     │
 │    by Google Antigravity & @BuildWithAlbert                                            │
 ├────────────────────────────────┬───────────────────────────────────────────────────────┤
 │ Official Plugin Specification  │ Standardized `plugin.json` manifests, MCP bindings,   │
@@ -69,9 +79,19 @@ The core pillars of this collection are directly synthesized and engineered from
 
 ---
 
-## 📂 2. Repository Directory Structure
+## 🔍 2. Spotlight: REA (Reverse Engineer Anything)
 
-The repository is logically organized into 7 functional domains plus pre-packaged plugins:
+[**REA** (`morluto/rea`)](https://github.com/morluto/rea) connects your AI agent directly to local analysis and reverse-engineering engines:
+
+- **Native Binaries:** Interfacing with Hopper, Ghidra, Cutter, Rizin, and GDB to inspect Mach-O, ELF, and PE binaries.
+- **Web & Electron Bundles:** Static unminification of Webpack/Vite production bundles, source map recovery, and runtime DOM/network capture.
+- **Mobile & Managed Code:** Decompilation of Android APKs (DEX to Java via JADX), .NET assemblies (CIL to C# via ILSpy), and Unity IL2CPP symbol restoration.
+- **Runtime Observation:** Attaching Frida for memory scanning, parameter tracing, and live behavior analysis.
+- **Agent Environments:** Building mock server bundles and reconstruction test beds from captured application traffic.
+
+---
+
+## 📂 3. Repository Directory Structure
 
 ```text
 Agent Skills/
@@ -79,18 +99,19 @@ Agent Skills/
 ├── 02-Memory-and-Knowledge/          # Claude-Mem, Obsidian-Brain, Antigravity Guides
 ├── 03-Code-Quality-and-Review/       # 5-Agent PR Swarm, CodeRabbit, TDD, Debugging
 ├── 04-Design-and-Frontend/           # Taste-Design, Emil Motion, Impeccable, UI Craft
-├── 05-Developer-Tools-and-Infra/     # Zoo-Code, Antigravity SDK, DevTools, Android, Swift
-├── 06-Fullstack-and-Replica/         # 11-Stage App Cloning & Reverse Engineering System
+├── 05-Developer-Tools-and-Infra/     # Zoo-Code, REA Analysis, AGY SDK, DevTools, Swift
+├── 06-Fullstack-and-Replica/         # REA (Reverse Engineer Anything) & 11-Stage Replica
 ├── 07-Stitch-and-Creative/           # Google Stitch extraction, components, design tokens
 ├── 08-Plugins-and-Bundles/           # Ready-to-load Antigravity Plugins (with plugin.json)
 │   ├── antigravity-power-pack/       # The 8 Video Headliner Skills bundled as 1 plugin
+│   ├── rea-plugin/                   # Reverse Engineer Anything Plugin & MCP bindings
 │   ├── android-cli-plugin/
 │   ├── chrome-devtools-plugin/
 │   ├── google-antigravity-sdk/
 │   ├── modern-web-guidance-plugin/
 │   └── replica-skill/
 ├── AGENTS.md                         # Autonomous Agent rules & execution directives
-├── INDEX.json                        # Machine-readable catalog of all 105+ skills
+├── INDEX.json                        # Machine-readable catalog of all 110 skills
 ├── install.ps1                       # Windows PowerShell installer
 ├── install.sh                        # Linux / macOS / WSL Bash installer
 ├── INSTALL.bat                       # Double-click Windows batch launcher
@@ -99,7 +120,7 @@ Agent Skills/
 
 ---
 
-## ⚡ 3. Installation & Quickstart
+## ⚡ 4. Installation & Quickstart
 
 ### Method A: One-Click Global Install (Recommended for Windows)
 Simply double-click:
@@ -110,7 +131,7 @@ INSTALL.bat
 ```powershell
 .\install.ps1 -Scope global
 ```
-This automatically registers all 105+ skills into `~/.gemini/config/skills/` and all plugins into `~/.gemini/config/plugins/`.
+This automatically registers all 110 skills into `~/.gemini/config/skills/` and all plugins into `~/.gemini/config/plugins/`.
 
 ### Method B: Workspace-Specific Install (Project Repository)
 To install only inside your current project repository:
@@ -127,7 +148,7 @@ chmod +x install.sh
 
 ---
 
-## 📊 4. Complete Categorized Catalog
+## 📊 5. Complete Categorized Catalog
 
 ### Category 01: Productivity & Planning (14 Skills)
 | Skill Name | Purpose | Key Trigger Words |
@@ -168,7 +189,7 @@ chmod +x install.sh
 | **`receiving-code-review`** | Rigorous evaluation of review feedback before applying | *"receive review", "apply feedback"* |
 | **`permissioned-github`** | Safe GitHub CLI integration with confirmation gates | *"github pr", "gh issue", "create branch"* |
 
-### Category 04: Design & Frontend (24 Skills)
+### Category 04: Design & Frontend (25 Skills)
 | Skill Name | Purpose | Key Trigger Words |
 | :--- | :--- | :--- |
 | **`design-taste-frontend`** | Anti-slop frontend taste engine; Figma/x.ai tier UI | *"make UI look great", "anti-slop", "taste"* |
@@ -185,10 +206,13 @@ chmod +x install.sh
 | **`ui-ux-pro-max`** | 79 active UI styles, 192 palettes, 74 font pairings | *"ux intelligence", "palette picker"* |
 | **`apple-design`** | Apple HIG, fluid springs, translucent materials | *"apple style", "ios sheet", "liquid motion"* |
 
-### Category 05: Developer Tools & Infrastructure (19 Skills)
+### Category 05: Developer Tools & Infrastructure (25 Skills)
 | Skill Name | Purpose | Key Trigger Words |
 | :--- | :--- | :--- |
 | **`zoo-code`** | Multi-model orchestration, quota failover & routing | *"model failover", "quota limit", "zoo"* |
+| **`rea-tool-design`** | REA tool contracts, provider capabilities & evidence semantics | *"rea tool", "analysis contract"* |
+| **`rea-analysis-optimization`** | Optimizes REA reverse-engineering for latency and RAM | *"rea performance", "optimize analysis"* |
+| **`rea-ci-tests-audit`** | Audits test suites and CI runs for regression protection | *"audit ci", "test drift"* |
 | **`google-antigravity-sdk`**| Build autonomous agents with the official AGY SDK | *"antigravity sdk", "agent orchestration"* |
 | **`chrome-devtools`** | Automates browser debugging & network inspection | *"devtools", "inspect element", "browser log"* |
 | **`android-cli`** | Complete Android project build, run & AVD manager | *"android run", "emulator", "adb"* |
@@ -198,19 +222,21 @@ chmod +x install.sh
 | **`tabbit`** | Browser navigation and screenshot verification CLI | *"tabbit", "browser verify", "visual check"* |
 | **`write-swift`** | Modern Swift 6 concurrency, value types, and testing | *"swift 6", "concurrency", "actors"* |
 
-### Category 06: Fullstack & App Replica System (11 Skills)
-The complete end-to-end framework to reverse-engineer and clone any application:
-- `replica-recon` ➔ Reverse-engineer screens, flows, and feature matrix.
-- `replica-architect` ➔ Design SQL schema, API routes, and boring stack.
-- `replica-design` ➔ Extract tokens, type scale, and WCAG colors.
-- `replica-build` ➔ Rebuild screens starting from vertical slice.
-- `replica-backend` ➔ Implement Auth, Stripe payments, and APIs.
-- `replica-test` ➔ E2E Playwright click-through and bug reports.
-- `replica-diff` ➔ Calculate feature parity score against original.
-- `replica-entrepreneur` ➔ Analyze user reviews & uncover market gaps.
-- `replica-brand` ➔ Create unique name, logo brief, and voice.
-- `replica-launch` ➔ Generate landing page & App Store listings.
-- `replica-deploy` ➔ Live deployment, DNS, and production monitoring.
+### Category 06: Fullstack, Reverse-Engineering & Replica System (12 Skills)
+| Skill Name | Purpose | Key Trigger Words |
+| :--- | :--- | :--- |
+| **`reverse-engineer-anything`** | **REA core**: Decompiles binaries, APKs, Electron, and recovers types | *"reverse engineer", "decompile", "inspect binary"* |
+| **`replica-recon`** | Reverse-engineer screens, flows, and feature matrix | *"recon map", "map out app", "screen inventory"* |
+| **`replica-architect`** | Design SQL schema, API routes, and boring stack | *"plan clone", "design database", "api architecture"* |
+| **`replica-design`** | Extract tokens, type scale, and WCAG colors | *"match design", "rebuild design system"* |
+| **`replica-build`** | Rebuild screens starting from vertical slice | *"build clone", "rebuild screen", "vertical slice"* |
+| **`replica-backend`** | Implement Auth, Stripe payments, and background jobs | *"backend clone", "add payments", "wire database"* |
+| **`replica-test`** | E2E Playwright click-through and bug reports | *"test clone", "find bugs", "e2e tests"* |
+| **`replica-diff`** | Calculate feature parity score against original | *"how close is clone", "parity check", "diff screens"* |
+| **`replica-entrepreneur`** | Analyze user reviews & uncover market gaps | *"what do users hate", "find gap", "positioning"* |
+| **`replica-brand`** | Create unique name, logo brief, and voice | *"rebrand clone", "name app", "brand voice"* |
+| **`replica-launch`** | Generate landing page & App Store listings | *"landing page", "app store listing", "pricing"* |
+| **`replica-deploy`** | Live deployment, DNS, and production monitoring | *"deploy clone", "ship it", "go to production"* |
 
 ### Category 07: Stitch & Creative Systems (21 Skills)
 Specialized tools for Google Stitch, design systems, and presentations:
@@ -274,22 +300,16 @@ Specialized tools for Google Stitch, design systems, and presentations:
 ## ⚡ 2. Universal Skill Invocation Rules
 
 1. **Never Hallucinate Skill Content:** You must never assume what a skill does based solely on its folder name. Always read `<path>/SKILL.md` first.
-2. **Context Window Conservation:** Do not read more than two skill manuals simultaneously. Load the skill, perform its workflow, and proceed.
-3. **Persist Long-Running State:** If an operation requires more than 5 turns, initialize `.wrap/checkpoint.json` (`wrap-loop`) or `.agents/memory/MEMORY.md` (`claude-mem`) on disk.
-4. **Model Tier Awareness (Zoo Code):** If you hit rate limits, quotas, or context degradation, gracefully fail over to the secondary model tier while preserving dirty files and task status.
-
----
-
-## 🛡️ 3. Safety & Quality Floor
-
-- **No Destructive Overwrites:** Never replace an existing multi-hundred-line source file with a placeholder or truncated snippet. Always use surgical targeted edits (`edit_file`).
-- **No Blind Approvals:** When performing code reviews, reject nitpicks and focus on actionable, high-severity bugs (security, memory leaks, concurrency races).
-- **Preserve Documentation:** Never delete comments, docstrings, or types unrelated to the task at hand.
+2. **Reverse Engineering Protocol (REA):** When analyzing unfamiliar compiled targets or minified JavaScript, invoke `reverse-engineer-anything`. Use concrete Evidence instead of guessing internal implementation details.
+3. **Context Window Conservation:** Do not read more than two skill manuals simultaneously. Load the skill, perform its workflow, and proceed.
+4. **Persist Long-Running State:** If an operation requires more than 5 turns, initialize `.wrap/checkpoint.json` (`wrap-loop`) or `.agents/memory/MEMORY.md` (`claude-mem`) on disk.
+5. **Model Tier Awareness (Zoo Code):** If you hit rate limits, quotas, or context degradation, gracefully fail over to the secondary model tier while preserving dirty files and task status.
 
 ---
 
 ## 📄 License & Attribution
 
 - Built-in Google Antigravity Plugins are provided under Google's platform license.
+- REA (Reverse Engineer Anything) is created by [@morluto](https://github.com/morluto/rea) under MIT License.
 - Community skills inspired by [@InsiderForce](https://www.youtube.com/@InsiderForce/shorts), [@LPTSkills](https://www.youtube.com/@LPTSkills/shorts), and [@BuildWithAlbert](https://www.youtube.com/@BuildWithAlbert/shorts).
 - Distributed for portable developer productivity.

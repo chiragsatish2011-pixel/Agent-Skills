@@ -28,6 +28,7 @@ When a user request matches the left column, route immediately to the skill in t
 | **"Obsidian vault", "Connect notes", "Second brain", "Wikilinks"** | `02-Memory-and-Knowledge/obsidian-brain` | Format notes with YAML frontmatter and `[[wikilinks]]` |
 | **"Quota limit reached", "Switch model", "Fallback provider"** | `05-Developer-Tools-and-Infra/zoo-code` | Failover execution state to alternative model tier |
 | **"Make UI look designed, not generic AI", "Anti-slop"** | `04-Design-and-Frontend/design-taste-frontend` | Apply high-craft typography, layout, and palette rules |
+| **"Reverse engineer app", "Decompile binary", "Inspect APK with REA"** | `06-Fullstack-and-Replica/reverse-engineer-anything` | Trace features, decompile bytecode, recover types with REA |
 | **"Add motion", "Make interface feel alive", "Emil motion"** | `04-Design-and-Frontend/emil-design-eng` | Apply spring curves, intentional easing, and tactile feedback |
 | **"Polish design", "Sweep UI details", "Impeccable"** | `04-Design-and-Frontend/impeccable` | Execute design tokens, spacing scale, and `/polish` sweep |
 | **"Clone app", "Reverse-engineer UI flow"** | `06-Fullstack-and-Replica/replica-*` | Run full Replica pipeline from recon to launch |

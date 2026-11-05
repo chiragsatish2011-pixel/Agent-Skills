@@ -1,0 +1,25 @@
+{
+  "name": "rea",
+  "displayName": "REA (Reverse Engineer Anything)",
+  "version": "6.8.0",
+  "description": "Reverse engineer anything with agents, from application runtime behavior down to native binaries, Electron/JS bundles, APKs, and .NET assemblies.",
+  "author": "morluto",
+  "homepage": "https://rea.tools/",
+  "suggestedPrompts": [
+    "Decompile and trace this binary function with REA",
+    "Reverse engineer this JavaScript bundle to recover sources",
+    "Analyze this Android APK with REA"
+  ],
+  "mcpServers": {
+    "rea": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "rea-agents",
+        "--mcp"
+      ]
+    }
+  }
+}
